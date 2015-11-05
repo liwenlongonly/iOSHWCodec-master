@@ -24,6 +24,7 @@
 		54C176EE1B6B2A6B0030EC68 /* VTPCompressionSession+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C176E71B6B2A6B0030EC68 /* VTPCompressionSession+Properties.m */; };
 		54C176EF1B6B2A6B0030EC68 /* VTPCompressionSession+PropertiesFromDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C176E91B6B2A6B0030EC68 /* VTPCompressionSession+PropertiesFromDictionary.m */; };
 		54C176F21B6B2A790030EC68 /* AAPLEAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C176F11B6B2A790030EC68 /* AAPLEAGLLayer.m */; };
+		7B01F0D31BEB037000DCBE0F /* AudioQueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F0D21BEB037000DCBE0F /* AudioQueuePlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		54C176E91B6B2A6B0030EC68 /* VTPCompressionSession+PropertiesFromDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VTPCompressionSession+PropertiesFromDictionary.m"; sourceTree = "<group>"; };
 		54C176F01B6B2A790030EC68 /* AAPLEAGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLEAGLLayer.h; sourceTree = "<group>"; };
 		54C176F11B6B2A790030EC68 /* AAPLEAGLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEAGLLayer.m; sourceTree = "<group>"; };
+		7B01F0D11BEB037000DCBE0F /* AudioQueuePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueuePlayer.h; sourceTree = "<group>"; };
+		7B01F0D21BEB037000DCBE0F /* AudioQueuePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueuePlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,8 @@
 		54C176F31B6B2A810030EC68 /* vendor */ = {
 			isa = PBXGroup;
 			children = (
+				7B01F0D11BEB037000DCBE0F /* AudioQueuePlayer.h */,
+				7B01F0D21BEB037000DCBE0F /* AudioQueuePlayer.m */,
 				54C176E11B6B2A6B0030EC68 /* Shader.fsh */,
 				54C176E21B6B2A6B0030EC68 /* Shader.vsh */,
 				54C176E31B6B2A6B0030EC68 /* VideoToolboxPlus.h */,
@@ -278,6 +283,7 @@
 				54C176BC1B6B293A0030EC68 /* ViewController.m in Sources */,
 				54C176EE1B6B2A6B0030EC68 /* VTPCompressionSession+Properties.m in Sources */,
 				54C176B91B6B293A0030EC68 /* AppDelegate.m in Sources */,
+				7B01F0D31BEB037000DCBE0F /* AudioQueuePlayer.m in Sources */,
 				54C176ED1B6B2A6B0030EC68 /* VTPCompressionSession.m in Sources */,
 				54C176B61B6B293A0030EC68 /* main.m in Sources */,
 				54C176F21B6B2A790030EC68 /* AAPLEAGLLayer.m in Sources */,
